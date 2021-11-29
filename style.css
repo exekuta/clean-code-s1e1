@@ -27,11 +27,11 @@ button{
   text-align: right;
 }
 
-.header .image {
+.header__image {
   width: 100%;
 }
 
-.header .more-details {
+.header__details-link {
   font-family: fantasy, cursive;
 }
 
@@ -49,13 +49,13 @@ button{
   margin: 0 auto 0;
 }
 
-.task {
+.task-item__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-element__row-wrapper {
   display: flex;
 }
 
@@ -74,7 +74,7 @@ button{
 }
 
 /* Heading */
-.element-title {
+.title-text {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -102,7 +102,7 @@ button{
 }
 
 /* New Task */
-.element-title {
+.add-element__title {
   display: block;
   margin: 0 0 20px;
 }
@@ -126,7 +126,7 @@ button{
   vertical-align: middle;
 }
 
-.task-item-checkbox {
+.task-item__checkbox {
   margin: 0 10px;
 }
 
@@ -167,6 +167,6 @@ button{
   width: 224px;
 }
 
-.edit-mode .task {
+.edit-mode .task-item__label {
   display:none;
 }
